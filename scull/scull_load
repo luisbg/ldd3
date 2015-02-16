@@ -58,9 +58,3 @@ rm -f /dev/${device}priv
 mknod /dev/${device}priv  c $major 11
 chgrp $group /dev/${device}priv
 chmod $mode  /dev/${device}priv
-
-
-
-
-
-
